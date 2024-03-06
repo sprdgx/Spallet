@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
-import SimpleSmartContract from "./contracts/SimpleSmartContract.json";
 
 const App = () => {
   const [value, setValue] = useState(0);
