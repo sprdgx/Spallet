@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "antd";
 import { useNavigate } from "react-router-dom";
+import Web from './web.js';
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <img src='https://raw.githubusercontent.com/sprdgx/SprD/main/PROJECTS/SPALLET.png' alt="logo" className="frontPageLogo" />
       <h2> Hey There 👋 </h2>
         <h4 className="h4"> Welcome to your Web3 Wallet</h4>
+    <Web/>
         <Button
           onClick={() => navigate("/createwallet")}        
           className="frontPageButton"
